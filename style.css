@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'exo';
+  src: url('font/Exo2.0-Light-webfont.eot');
+  src: url('font/Exo2.0-Light-webfont.eot?#iefix') format('embedded-opentype'), url('font/Exo2.0-Light-webfont.woff') format('woff'), url('font/Exo2.0-Light-webfont.ttf') format('truetype'), url('font/Exo2.0-Light-webfont.svg#exo_2.0light') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'exo';
+  color: #c8c8c8;
+  background-color: #323232;
+  width: 1200px; }
+
+.fallback-message {
+  display: none; }
+
+.impress-not-supported .fallback-message {
+  display: block; }
+
+.step {
+  position: relative;
+  transition: all 0.5s linear; }
+  .step:not(.active) {
+    opacity: 0; }
+
+p {
+  position: absolute;
+  left: -400px;
+  min-width: 800px;
+  text-align: left;
+  font-size: 24px; }
+
+h1 {
+  position: absolute;
+  left: -400px;
+  text-align: left;
+  font-size: 48px;
+  min-width: 800px; }
+
+iframe {
+  margin: 0 auto;
+  position: absolute;
+  top: -300px;
+  left: -400px; }
+
+.vimeo {
+  left: -635px;
+  top: -400px; }
+
+/*# sourceMappingURL=style.css.map */
